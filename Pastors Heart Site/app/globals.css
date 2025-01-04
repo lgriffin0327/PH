@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom styles below */
+
+:root {
+  --deep-blue: #2C3E50;
+  --soft-white: #F7F9F9;
+  --warm-beige: #E6D5B8;
+  --olive-green: #B1A976;
+  --dusty-rose: #C99E9E;
+}
+
+body {
+  color: var(--deep-blue);
+  background-color: var(--soft-white);
+}
